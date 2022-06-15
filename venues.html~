@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    List of Journals/Conferences where my research reports have been published (the number inside the parentheses denotes the number of papers in the respective venue).<br><br>
+
+    <b><u>Journals</u>:</b><br>
+    SIAM Journal on Scientific Computing (4)<br>
+    SIAM Journal on Matrix Analysis and Applications (1)<br>
+    Electronic Transactions on Numerical Analysis (2)<br>
+    Numerical Algorithms (1)<br>
+    Parallel Computing (1)<br>
+    Computer Physics Communications (1)<br>
+    Bioinformatics (1)<br>
+    Numerical Linear Algebra with Applications (1)<br>
+    Knowledge and Information Systems (1)<br>
+    Journal of Computational Physics (1)<br><br>
+    <b><u>Conferences</u>:</b><br>
+    International Conference on Machine Learning (1) <br>
+    ACM/IEEE Supercomputing Conference (1)<br>
+    IEEE International Conference on Acoustics, Speech and Signal Processing (1)<br>
+    IEEE Conference on High Performance Extreme Computing (1)<br>
+    IEEE International Conference on Big Knowledge (1)<br>
+  </body>
+</html>
+<br><br>
+<script language="JavaScript">
+  var LastUpdated = document.lastModified;
+  document.writeln ("This page was last updated " + LastUpdated);
+  </script><br><br>

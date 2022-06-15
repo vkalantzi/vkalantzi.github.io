@@ -1,0 +1,419 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+   
+  <head>
+    <basefont size="17">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <!--<link rel="stylesheet" type="text/css">-->
+    <title>Vassilis Kalantzis - Research Staff Member, IBM Research</title>
+    <style type="text/css">
+      body {
+      padding-left: 0.1em;
+      padding-top: -125px;
+      font-family: "Times New Roman",Times, serif;
+      color: black;
+      font-size: 16.5px;
+      background-color: #39ac6b;
+      background-color: #5F9EA0;
+      background-color: #7fb1b3;
+      background-color: #8fbbbd;
+      margin-right: 500px;
+      }
+      
+      <!--p { margin: 0 !important; }-->
+      h1{
+      margin-top: -30px;
+      }
+      h2{
+      margin: -10px 0 -10px 0px;
+      }
+      h3{
+      margin-top: -10px;
+      }
+      hr{
+      margin: 0;
+      }
+      #table2 {
+      border-collapse: separate;
+      border-spacing: 0px 10px;
+      }
+      div {margin-top: -10px;}
+      ul {
+        margin-top: 3px; margin-bottom: 0px;}
+    </style>
+  </head>
+   
+  <body>
+   
+    <div id="pagebody">
+       
+      <h1>Vassilis Kalantzis</h1>
+      <h3>Research Staff Member</h3>
+      
+      <div id="contact">
+	<div id="address">
+          <!--<a href="https://www.research.ibm.com/artificial-intelligence/trusted-ai/" target="_blank"> Foundations of Trusted AI</a>-->
+	  Foundations of Trusted AI<br>
+	  <!--<a href="https://www.research.ibm.com/" target="_blank"> IBM Research</a>-->
+	  IBM Research<br>
+	  Thomas J. Watson Research Center<br>
+	  1101 Kitchawan Rd, Yorktown Heights, NY 10598, U.S.
+	</div><br>
+
+	<div id="emailteloff">
+	  vkal (at) ibm (dot) com<br>
+	  +1 (914) 945-1530 <span class="phonetype">(tel)</span> <br>
+	</div>
+      </div>
+      </br>
+      <img src="images/Picture2.png" margin="0" border="0" left="0" width="160" height="60">
+                   
+      <hr>
+       
+      <div id="rsrchinterests">
+	 
+	<h2 class="sectionhdg">Research Interests</h2>
+	 
+	<ul>
+	  <li>Numerical linear algebra (sparse linear systems, symmetric eigenvalue problems)</li>
+	  <li>Parallel computing</li>
+	  <li>Quantum computing</li>
+	  <li>Artificial intelligence (trusted AI, applications)</li>
+	</ul>
+	 
+	<p align="justify">I joined <a href="https://www.research.ibm.com/" target="_blank"> IBM Research</a> (New York) as a
+	  <a href="http://www.research.ibm.com/goldstine/" target="_blank"> Herman H. Goldstine Memorial Postdoctoral Fellow</a>
+	  in September 2018. I converted to a research staff member in October 2019. This is my personal homepage.
+	  If you are looking for my IBM webpage, click
+	  <a href="https://researcher.watson.ibm.com/researcher/view.php?person=ibm-vkal" target="_blank">here</a>.
+	</p>
+	 
+	<p align="justify"> I received my PhD (2018) and M.Sc (2016) in
+	  <a href="http://www.cs.umn.edu/" target="_blank">Computer Science and Engineering</a>
+	  from the <a href="http://www.umn.edu/" target="_blank">University of Minnesota, Twin Cities, U.S.</a>
+	  My dissertation is titled 
+	  <a href="https://conservancy.umn.edu/handle/11299/201170" target="_blank">"Domain decomposition
+	  algorithms for the solution of sparse symmetric generalized eigenvalue problems"</a> and
+	  was supervised by Prof. Yousef Saad. Prior to that, I received M.Sc (2014) and M.Eng (2011)
+	  in <a href="https://www.ceid.upatras.gr/en">Computer Engineering and Informatics</a> from the
+	  <a href="https://www.upatras.gr">University of Patras</a>, Greece.
+	</p>
+
+	<br>
+	
+	<p align="justify"> A list of my publications and related software (where available) can be
+	  found below. Click <a href="patents_new.html" target="_blank"> here</a>
+	  for a list of patents, and <a href="awards_new.html" target="_blank"> here</a>
+	  for a list of awards.
+	</p>
+
+	<br>
+
+	<p align="justify"> Program committees: NeurIPS 2022, ICML 2022, ICLR 2022, NeurIPS 2021, ICML 2021, AAAI 2021, AAAI 2020, IJCAI 2020.</p>
+
+	</div>
+	 
+	<hr>
+	 
+	<div id="publications">
+	   
+	  <h2 class="sectionhdg">Publications</h2>
+	   
+	  <p align="justify"> Bibtex file: click <td class="links"><a href="kalantzis.bib" target="_blank"> here</a></td>.&nbsp&nbsp
+	   Publications sorted by venue: click <a href="venues.html" target="_blank"> here</a></td>.</p>
+	  
+<table id="table2" style="margin-bottom:-20px;">
+
+    <td class="info">
+      [26.] &nbsp <b>A Parallel Algorithm for Computing Partial Spectral Factorizations of Matrix Pencils via Chebyshev Approximation</b><br>
+      T. Xu, A. P. Austin, V. Kalantzis, and Y. Saad<br>
+      Submitted<br>
+      </td>
+    </tr>
+  
+    <td class="info">
+      [25.] &nbsp <b>On Quantum Algorithms for Random Walks in the Nonnegative Quarter Plane</b><br>
+      V. Kalantzis, M. S. Squillante, S. Ubaru, and L. Horesh<br>
+      Workshop on Mathematical performance Modeling and Analysis (MAMA 2022)<br>
+    </td>
+    </tr>
+  
+    <td class="info">
+      [24.] &nbsp <b>PCENet: High Dimensional Deep Surrogate Modeling</b><br>
+      P. Fink, S. Ubaru, V. Kalantzis, L. Horesh, and H. Avron<br>
+      Submitted<br>
+      <td class="links"> <a href="https://arxiv.org/pdf/2202.05063.pdf" target="_blank">PDF</a></td>
+      </td>
+    </tr>
+
+    <tr>
+    <td class="info">
+      [23.] &nbsp <b>Revolutionalizing Numerical Computation with Analog Devices</b><br>
+      V. Kalantzis et al.<br>
+      Submitted<br>
+      </td>
+    </tr>
+  
+    <tr>
+    <td class="info">
+      [22.] &nbsp <b>parGeMSLR: A Parallel Multilevel Schur Complement Low-Rank Preconditioning and
+Solution Package for General Sparse Matrices</b><br>
+      T. Xu, V. Kalantzis, R. Li, Y. Xi, G. Dillon, and Y. Saad<br>
+      Submitted<br>
+      </td>
+    </tr>
+  
+    <tr>
+    <td class="info">
+      [21.] &nbsp <b>Enhanced Algebraic Substructuring for Symmetric Generalized Eigenvalue Problems</b><br>
+      V. Kalantzis and L. Horesh<br>
+      Submitted<br>
+      </td>
+    </tr>
+    
+  <tr>
+    <td class="info">
+      [20.] &nbsp <b>Directed Graph Auto-Encoders</b><br>
+      G. Kollias, V. Kalantzis, T. Ide, A. Lozano, and N. Abe<br>
+      In Proceedings of the Thirty-Sixth AAAI Conference on Artificial Intelligence (AAAI 2022)<br>
+      Acceptance rate: 15<span>&#37;</span><br>
+      <td class="links"> <a href="https://arxiv.org/pdf/2202.12449.pdf" target="_blank">PDF</a></td>
+    </td>
+   </tr>
+
+  <tr>
+    <td class="info">
+      [-.] &nbsp <b>Flexible GMRES with Analog Accelerators</b><br>
+      A. Gupta, V. Kalantzis, M. S. Squillante, C. W. Wu, H. Avron, S. Ubaru, T. Gokmen, M. Rasche, T. Nowicki, and L. Horesh<br>
+      Research poster at the 2021 ACM/IEEE Supercomputing Conference (SC21)<br>
+      <td class="links"> <a href="https://sc21.supercomputing.org/proceedings/tech_poster/tech_poster_pages/rpost124.html">PDF</a></br>
+    </td>
+   </tr>
+  
+  <tr>
+    <td class="info">
+      [19.] &nbsp <b>Solving Sparse Linear Systems with Approximate Inverse Preconditioners on Analog Devices</b><br>
+      V. Kalantzis et al.<br>
+      In Proceedings of the 25th IEEE Conference on High Performance Extreme Computing (HPEC 2021)<br>
+      DOI: <a href="https://ieeexplore.ieee.org/document/9622816" target="blank">10.1109/HPEC49654.2021.9622816</a><br>
+    </td>
+    <td class="links"> <a href="papers/hpec2021.pdf" target="_blank">PDF</a></td>
+    </tr>
+	      <tr>                                                                                                                              
+		<td class="info">
+		[18.] &nbsp <b>Fast Randomized non-Hermitian Eigensolvers Based on Rational Filtering and Matrix Partitioning</b><br>
+                V. Kalantzis, Y. Xi, and L. Horesh<br>
+                SIAM Journal on Scientific Computing (2021), Vol. 43, No. 5, pp. S791-S815<br>
+		DOI: <a href="https://epubs.siam.org/doi/abs/10.1137/20M1349217" target="blank">10.1137/19M1280004</a><br>
+	      </td>
+	      <td class="links"> <a href="papers/sisc2021.pdf" target="_blank">PDF</a></td>
+              </tr>
+	        <tr>
+                <td class="info">
+                  [17.] &nbsp <b>Projection Techniques to Update the Truncated SVD of Evolving Matrices with Applications</b><br>
+                  V. Kalantzis, G. Kollias, S. Ubaru, A. N. Nikolakopoulos, L. Horesh, and K. L. Clarkson<br>
+                  In Proceedings of the 38th International Conference on Machine Learning (ICML 2021)<br>
+		  Acceptance rate: 21<span>&#37;</span><br>
+		 <a href="http://proceedings.mlr.press/v139/kalantzis21a" target="blank">Proceedings of Machine Learning Research</a><br>
+                </td>
+		<!--<td class="links"> <a href="http://proceedings.mlr.press/v139/kalantzis21a/kalantzis21a.pdf" target="_blank">PDF</a></td>-->
+		<td class="links"> <a href="papers/icml2021.pdf" target="_blank">PDF</a></td>
+                </tr>
+              <tr>
+		<td class="info">
+		  [16.] &nbsp <b>Sparse Graph-Based Sketching for Numerical Linear Algebra</b><br>
+		  D. Hu, S. Ubaru, A. Gittens, L. Horesh, K. L. Clarkson, and V. Kalantzis<br>
+		  In Proceedings of the 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2021)<br>
+		  DOI: <a href="https://ieeexplore.ieee.org/document/9414030" target="blank">10.1109/ICASSP39728.2021.9414030</a><br>
+		</td>
+		<td class="links"> <a href="papers/icassp2021.pdf" target="_blank">PDF</a></td>
+	      </tr>
+	    <tr>
+	      <td class="info">
+		[15.] &nbsp <b>A Domain Decomposition Rayleigh-Ritz Algorithm for Symmetric Generalized Eigenvalue Problems</b><br>
+		V. Kalantzis<br>
+		SIAM Journal on Scientific Computing (2020), Vol. 42, No. 6, pp. C410-C435<br>
+		DOI: <a href="https://epubs.siam.org/doi/abs/10.1137/19M1280004" target="blank">10.1137/19M1280004</a><br>
+	      </td>
+	      <td class="links"> <a href="papers/derivatives.pdf" target="_blank">PDF</a></td>
+	    </tr>
+	    <tr>
+	      <td class="info">
+		[14.] &nbsp <b>A Spectral Newton-Schur Algorithm for the Solution of Symmetric Generalized
+		  Eigenvalue Problems</b><br>
+		V. Kalantzis<br>
+		Electronic Transactions on Numerical Analysis (2020), Vol. 52, pp. 132-153<br>
+		DOI: <a href="http://etna.mcs.kent.edu/volumes/2011-2020/vol52/" target="blank">10.1553/etna_vol52s132</a><br>
+	      </td>
+	      <td class="links"> <a href="papers/newton_schur.pdf" target="_blank">PDF</a></td>
+	    </tr>
+	    <tr>
+	      <td class="info">
+		[13.] &nbsp <b>TeraPCA: a Fast and Scalable Method to Study Genetic Variation in Tera-scale Genotypes</b><br>
+		A. Bose, V. Kalantzis, E. M. Kontopoulou,  M. Elkadi, P. Paschou, and P. Drineas<br>
+		Bioinformatics (2019), Volume 35, Issue 19, pp. 3679-3683<br>
+		DOI:
+		<a href="https://academic.oup.com/bioinformatics/article/35/19/3679/5430929" target="blank">10.1093/bioinformatics/btz157</a><br>
+		Software: <a href="https://github.com/aritra90/TeraPCA" target="_blank">C++</a>
+	      </td>
+	      <td class="links"> <a href="papers/terapca.pdf" target="_blank">PDF</a></td>
+	    </tr>
+	    <tr>
+	      <td class="info">
+		[12.] &nbsp <b>Stable Computation of Generalized Matrix Functions via Polynomial Interpolation</b><br>
+		J. L. Aurentz, A. P. Austin, M. Benzi, and V. Kalantzis<br>
+		SIAM Journal on Matrix Analysis and Applications (2019), Vol. 40, No. 1, pp. 210-234<br>
+		DOI: <a href="https://doi.org/10.1137/18M1191786" target="blank">10.1137/18M1191786</a>
+	      </td>
+	      <td class="links"> <a href="papers/gmf.pdf" target="_blank">PDF</a></td>
+	    </tr>
+	    <tr>
+	      <td class="info">
+		[-.] &nbsp <b>Domain Decomposition Algorithms for the Solution of Sparse Symmetric Generalized Eigenvalue Problems</b><br>
+		V. Kalantzis<br>
+		Ph. D. Thesis (2018), University of Minnesota, Twin Cities<br>
+		Public access: <a href="https://conservancy.umn.edu/handle/11299/201170" target="blank">http://hdl.handle.net/11299/201170</a>
+	      </td>
+	      <td class="links"> <a href="https://conservancy.umn.edu/bitstream/handle/11299/201170/Kalantzis_umn_0130E_19741.pdf?sequence=1&isAllowed=y" target="_blank">PDF</a></td>
+            </tr>
+	    <tr>
+	      <td class="info">
+		[11.] &nbsp <b>Beyond Automated Multilevel Substructuring: Domain Decomposition with Rational Filtering</b><br>
+		V. Kalantzis, Y. Xi, and Y. Saad<br>
+		SIAM Journal on Scientific Computing (2018), Vol. 40, No. 4, pp. C477-C502<br>
+		DOI: <a href="https://epubs.siam.org/doi/abs/10.1137/17M1154527" target="blank">10.1137/17M1154527</a>
+	      </td>
+	      <td class="links"> <a href="papers/bamls.pdf" target="_blank">PDF</a></td>
+	    </tr>
+	    <tr>
+	      <td class="info">
+		[10.] &nbsp <b>A Hierarchical Low-Rank Schur Complement Preconditioner for Indefinite Linear Systems</b><br>
+		G. Dillon, V. Kalantzis, Y. Xi, and Y. Saad<br>
+		SIAM Journal on Scientific Computing (2018), Vol. 40, No. 4, pp. A2234-A2252<br>
+		DOI:
+		<a href="https://epubs.siam.org/doi/abs/10.1137/17M1143320" target="_blank">10.1137/17M1143320</a>
+	      </td>
+	      <td class="links"> <a href="papers/gemslr.pdf" target="_blank">PDF</a></td>
+	    </tr>
+	    <tr>
+	      <td class="info">
+		[9.] &nbsp <b>Domain Decomposition Approaches for Accelerating Contour Integration Eigenvalue Solvers for Symmetric Eigenvalue Problems</b><br>
+		V. Kalantzis, J. Kestyn, E. Polizzi, and Y. Saad<br>
+		Numerical Linear Algebra with Applications (2018), Vol. 25, No. 5<br>
+		DOI: <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/nla.2154" target="blank">10.1002/nla.2154</a>
+	      </td>
+	      <td class="links"> <a href="papers/ddfeast.pdf" target="_blank">PDF</a></td>
+	    </tr>
+	    <tr>
+	      <td class="info">
+		[8.] &nbsp <b>A Scalable Iterative Dense Linear System Solver for Multiple Right-Hand Sides in Data Analytics</b><br>
+		V. Kalantzis, C. Malossi, C. Bekas, A. Curioni, E. Gallopoulos, and Y. Saad<br>
+		Parallel Computing (2018), Vol. 74, pp. 136-153<br>
+		DOI:
+		<a href="https://www.sciencedirect.com/science/article/pii/S0167819117302119" target="blank">10.1016/j.parco.2017.12.005</a> <br>
+		Software: <a href="software/PARCO_RELEASE_v0.tar.gz" target="_blank">Fortran</a>
+	      </td>
+	      <td class="links">
+		<a href="papers/parco_ppbcg.pdf" target="_blank">PDF</a> <br>
+	      </td>
+	    </tr>
+	    <tr>
+	      <td class="info">
+		[7.] &nbsp <b>EIGENREC: Generalizing PureSVD for Effective and Efficient Top-N Recommendations</b><br>
+		A. N. Nikolakopoulos, V. Kalantzis, E. Gallopoulos, and J. D. Garofalakis<br>
+		Knowledge and Information Systems (2018), Vol. 58, No. 1, pp. 59-81<br>
+		DOI: <a href="https://doi.org/10.1007/s10115-018-1197-7" target="blank">10.1007/s10115-018-1197-7</a>
+	      </td>
+	      <td class="links"> <a href="" target="_blank">PDF</a></td>
+	    </tr>
+	    <tr>
+	      <td class="info">
+		[6.] &nbsp <b>Factored Proximity Models for Top-N Recommendations</b><br>
+		A. N. Nikolakopoulos, V. Kalantzis, E. Gallopoulos, and J. D. Garofalakis<br>
+		In Proceedings of the 8th IEEE International Conference on Big Knowledge (ICBK 2017)<br>
+		Acceptance rate: 27<span>&#37;</span><br>
+		DOI: <a href="http://ieeexplore.ieee.org/document/8023398" target="blank">10.1109/ICBK.2017.14</a> <br>
+		Software: <a href="https://github.com/nikolakopoulos/EigenRec" target="_blank">Fortran</a>
+	      </td>
+	      <td class="links">
+		<a href="papers/icbk2.pdf" target="_blank">PDF</a> <br>
+	      </td>
+	    </tr>
+	    <tr>
+	      <td class="info">
+		[5.] &nbsp <b>Cucheb: A GPU Implementation of the Filtered Lanczos Procedure</b><br>
+		J. L. Aurentz, V. Kalantzis, and Y. Saad<br>
+		Computer Physics Communications (2017), Vol. 220, pp. 332-340<br>
+		DOI: <a href="https://doi.org/10.1016/j.cpc.2017.06.016" target="blank">10.1016/j.cpc.2017.06.016</a> <br>
+		Software: <a href="https://github.com/jaurentz/cucheb" target="_blank">C++/CUDA</a>
+	      </td>
+	      <td class="links">
+		<a href="papers/cucheb.pdf" target="_blank">PDF</a><br>
+	      </td>
+	    </tr>
+	    <tr>
+	      <td class="info">
+		[4.] &nbsp <b>PFEAST: A High Performance Sparse Eigenvalue Solver Using Distributed-Memory Linear Solvers</b><br>
+		J. Kestyn, V. Kalantzis, E. Polizzi, and Y. Saad<br>
+		In Proceedings of the 2016 ACM/IEEE Supercomputing Conference (SC16)<br>
+		Acceptance rate: 18<span>&#37;</span><br>
+		DOI: <a href="http://dl.acm.org/citation.cfm?id=3014926&CFID=861883336&CFTOKEN=73041843">10.1109/SC.2016.15</a>
+	      </td>
+	      <td class="links"> <a href="papers/pfeast2.pdf" target="_blank">PDF</a></td>
+	    </tr>
+	    <tr>
+	      <td class="info">
+		[3.] &nbsp <b>Spectral Schur Complement Techniques for Symmetric Eigenvalue Problems</b><br>
+		V. Kalantzis, R. Li, and Y. Saad<br>
+		Electronic Transactions on Numerical Analysis (2016), Vol. 45, pp. 305-329<br>
+	      </td>
+	      <td class="links">
+		<a href="papers/newton2.pdf" target="_blank">PDF</a><br>
+	      </td>
+	    </tr>
+	    <tr>
+	      <td class="info">
+		[2.] &nbsp <b>Estimating the Trace of the Matrix Inverse by Interpolating from the Diagonal of an Approximate Inverse</b><br>
+		L. Wu, J. Laeuchli, V. Kalantzis, A. Stathopoulos, and E. Gallopoulos<br>
+		Journal of Computational Physics (2016), Vol. 326, pp. 828-844<br>
+		DOI: <a href="http://www.sciencedirect.com/science/article/pii/S0021999116304120" target="blank">10.1016/j.jcp.2016.09.001</a>
+	      </td>
+	      <td class="links"> <a href="papers/trace2.pdf" target="_blank">PDF</a></td>
+	    </tr>
+	    <tr>
+	      <td class="info">
+		[1.] &nbsp <b>Accelerating Data Uncertainty Quantification by Solving Linear Systems with Multiple Right-Hand Sides</b><br>
+		V. Kalantzis, C. Bekas, A. Curioni, and E. Gallopoulos<br>
+		Numerical Algorithms (2013), Vol. 62, No. 4, pp. 637-653<br>
+		DOI: <a href="http://link.springer.com/article/10.1007%2Fs11075-012-9687-2" target="blank">10.1007/s11075-012-9687-2</a>
+	      </td>
+	      <td class="links"> <a href="papers/modinitbcg2.pdf" target="_blank">PDF</a><br>
+	      </td>
+	    </tr>
+	  </table>
+	   
+	</div>
+	 
+	<hr>
+	 
+	<div id="disclaimer">
+	   
+	  <p align="justify"> Some of the preprint papers and/or personal copies of accepted papers provided above might differ
+	    from the actual published versions. Please refer to the corresponding journals/conference proceedings for the final
+	    versions. Any opinions, statements, or conclusions expressed in the above reports do not necessarily reflect the views
+	    of the acknowledged funding sponsors or International Business Machines Corporation, Inc.
+	  </p>
+<br>
+	  <p align="justify">
+            The layout of this webpage was copied from <a href="https://faculty.nps.edu/aaustin/" target="blank">Anthony P. Austin's personal webpage</a>.
+	  </p>
+	   
+	</div>
+	 
+      </div>
+       
+  </body>
+   
+
+</html>

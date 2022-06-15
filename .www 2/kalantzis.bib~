@@ -1,0 +1,194 @@
+@Article{KalantzisETNA2020,
+author =       "Vassilis Kalantzis",
+title =        "A spectral Newton-Schur algorithm for the solution of symmetric generalized eigenvalue problems",
+journal =      j-ELECTRON-TRANS-NUMER-ANAL,
+volume =       "52",
+pages =        "132--153",
+year =         "2020",
+URL =          "http://etna.mcs.kent.edu/volumes/2011-2052/vol45/abstract.php?vol=52&pages=132-153",
+fjournal =     "Electronic Transactions on Numerical Analysis",
+journal-URL =  "http://etna.mcs.kent.edu/",
+}
+
+@article{10.1093/bioinformatics/btz157,
+author = {Bose, Aritra and Kalantzis, Vassilis and Kontopoulou, Eugenia-Maria and Elkady, Mai and Paschou, Peristera and Drineas, Petros},
+title = "{TeraPCA: a fast and scalable software package to study genetic variation in tera-scale genotypes}",
+journal = {Bioinformatics},
+volume = {35},
+number = {19},
+pages = {3679-3683},
+year = {2019},
+month = {04},
+issn = {1367-4803},
+doi = {10.1093/bioinformatics/btz157},
+url = {https://doi.org/10.1093/bioinformatics/btz157},
+eprint = {https://academic.oup.com/bioinformatics/article-pdf/35/19/3679/30061787/btz157.pdf}
+}
+
+@article{KalantzisSIMAX2019,
+author = {Aurentz, Jared L. and Austin, Anthony P. and Benzi, Michele. and Kalantzis, Vassilis.},
+title = {Stable Computation of Generalized Matrix Functions via Polynomial Interpolation},
+journal = {SIAM Journal on Matrix Analysis and Applications},
+volume = {40},
+number = {1},
+pages = {210-234},
+year = {2019},
+doi = {10.1137/18M1191786},
+URL = {https://doi.org/10.1137/18M1191786},
+eprint = {https://doi.org/10.1137/18M1191786}
+}
+
+@phdthesis{kalantzis2018domain,
+title={Domain Decomposition Algorithms for the Solution of Sparse Symmetric Generalized Eigenvalue Problems},
+author={Kalantzis, Vasileios},
+year={2018},
+school={University of Minnesota}
+}
+
+@article{KalantzisSISC2018b,
+author = {Kalantzis, V. and Xi, Y. and Saad, Y.},
+title = {Beyond Automated Multilevel Substructuring: Domain Decomposition with Rational Filtering},
+journal = {SIAM Journal on Scientific Computing},
+volume = {40},
+number = {4},
+pages = {C477-C502},
+year = {2018},
+doi = {10.1137/17M1154527},
+eprint = {https://doi.org/10.1137/17M1154527}
+}
+
+@article{KalantzisSISC22018a,
+author = {Dillon, G. and Kalantzis, V. and Xi, Y. and Saad, Y.},
+title = {A Hierarchical Low Rank Schur Complement Preconditioner for Indefinite Linear Systems},
+journal = {SIAM Journal on Scientific Computing},
+volume = {40},
+number = {4},
+pages = {A2234-A2252},
+year = {2018},
+doi = {10.1137/17M1143320},
+eprint = {https://doi.org/10.1137/17M1143320}
+}
+
+@article{KalantzisPARCO2018,
+title = "A scalable iterative dense linear system solver for multiple right-hand sides in data analytics",
+journal = "Parallel Computing",
+volume = "74",
+pages = "136 - 153",
+year = "2018",
+note = "Parallel Matrix Algorithms and Applications (PMAA'16)",
+issn = "0167-8191",
+doi = "https://doi.org/10.1016/j.parco.2017.12.005",
+url = "http://www.sciencedirect.com/science/article/pii/S0167819117302119",
+author = "Vassilis Kalantzis and A. Cristiano I. Malossi and Costas Bekas and Alessandro Curioni and Efstratios Gallopoulos and Yousef Saad",
+keywords = "(Block) Conjugate Gradient, Multiple right-hand sides, Galerkin projections, Massively parallel architectures, Deflation"
+}
+
+@article{KalantzisNLAA2018,
+author = {Vassilis Kalantzis and James Kestyn and Eric Polizzi and Yousef Saad},
+title = {Domain decomposition approaches for accelerating contour integration eigenvalue solvers for symmetric eigenvalue problems},
+journal = {Numerical Linear Algebra with Applications},
+volume = {25},
+number = {5},
+pages = {e2154},
+keywords = {Cauchy integral formula, domain decomposition, FEAST, parallel computing, symmetric eigenvalue problem},
+doi = {10.1002/nla.2154},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/nla.2154},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/nla.2154}
+}
+
+@Article{KalantzisKAIS2018,
+author="Nikolakopoulos, Athanasios N.
+and Kalantzis, Vassilis
+and Gallopoulos, Efstratios
+and Garofalakis, John D.",
+title="EigenRec: generalizing PureSVD for effective and efficient top-N recommendations",
+journal="Knowledge and Information Systems",
+year="2018",
+month="May",
+day="03",
+abstract="We introduce EigenRec, a versatile and efficient latent factor framework for top-N recommendations that includes the well-known PureSVD algorithm as a special case. EigenRec builds a low-dimensional model of an inter-item proximity matrix that combines a similarity component, with a scaling operator, designed to control the influence of the prior item popularity on the final model. Seeing PureSVD within our framework provides intuition about its inner workings, exposes its inherent limitations, and also, paves the path toward painlessly improving its recommendation performance. A comprehensive set of experiments on the MovieLens and the Yahoo datasets based on widely applied performance metrics, indicate that EigenRec outperforms several state-of-the-art algorithms, in terms of Standard and Long-Tail recommendation accuracy, exhibiting low susceptibility to sparsity, even in its most extreme manifestations---the Cold-Start problems. At the same time, EigenRec has an attractive computational profile and it can apply readily in large-scale recommendation settings.",
+issn="0219-3116",
+doi="10.1007/s10115-018-1197-7",
+url="https://doi.org/10.1007/s10115-018-1197-7"
+}
+
+@inproceedings{KalantzisICBK2017,
+  title={Factored proximity models for top-n recommendations},
+  author={Nikolakopoulos, Athanasios N and Kalantzis, Vassilis and Gallopoulos, Efstratios and Garofalakis, John D},
+  booktitle={Big Knowledge (ICBK), 2017 IEEE International Conference on},
+  pages={80--87},
+  year={2017},
+  organization={IEEE}
+}
+
+@article{KalantzisCPP2017,
+title = "Cucheb: A GPU implementation of the filtered Lanczos procedure",
+journal = "Computer Physics Communications",
+volume = "220",
+pages = "332 - 340",
+year = "2017",
+issn = "0010-4655",
+doi = "https://doi.org/10.1016/j.cpc.2017.06.016",
+url = "http://www.sciencedirect.com/science/article/pii/S0010465517301984",
+author = "Jared L. Aurentz and Vassilis Kalantzis and Yousef Saad",
+keywords = "GPU, Eigenvalues, Eigenvectors, Quantum mechanics, Electronic structure calculations, Density functional theory"
+}
+
+@inproceedings{KalantzisSC2016,
+ author = {Kestyn, James and Kalantzis, Vasileios and Polizzi, Eric and Saad, Yousef},
+ title = {PFEAST: A High Performance Sparse Eigenvalue Solver Using Distributed-memory Linear Solvers},
+ booktitle = {Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis},
+ series = {SC '16},
+ year = {2016},
+ isbn = {978-1-4673-8815-3},
+ location = {Salt Lake City, Utah},
+ pages = {16:1--16:12},
+ articleno = {16},
+ numpages = {12},
+ url = {http://dl.acm.org/citation.cfm?id=3014904.3014926},
+ acmid = {3014926},
+ publisher = {IEEE Press},
+ address = {Piscataway, NJ, USA},
+} 
+
+@Article{KalantzisETNA2016,
+author =       "Vassilis Kalantzis and Ruipeng Li and Yousef Saad",
+title =        "Spectral Schur complement techniques for symmetric eigenvalue problems",
+journal =      j-ELECTRON-TRANS-NUMER-ANAL,
+volume =       "45",
+pages =        "305--329",
+year =         "2016",
+URL =          "http://etna.mcs.kent.edu/volumes/2011-2020/vol45/abstract.php?vol=45&pages=305-329",
+fjournal =     "Electronic Transactions on Numerical Analysis",
+journal-URL =  "http://etna.mcs.kent.edu/",
+}
+
+@article{KalantzisJCP2016,
+title = "Estimating the trace of the matrix inverse by interpolating from the diagonal of an approximate inverse ",
+journal = "Journal of Computational Physics ",
+volume = "326",
+number = "",
+pages = "828 - 844",
+year = "2016",
+note = "",
+issn = "0021-9991",
+doi = "http://dx.doi.org/10.1016/j.jcp.2016.09.001",
+url = "http://www.sciencedirect.com/science/article/pii/S0021999116304120",
+author = "Lingfei Wu and Jesse Laeuchli and Vassilis Kalantzis and Andreas Stathopoulos and Efstratios Gallopoulos"
+}
+
+@Article{KalantzisNA2013,
+author="Kalantzis, V.
+and Bekas, C.
+and Curioni, A.
+and Gallopoulos, E.",
+title="Accelerating data uncertainty quantification by solving linear systems with multiple right-hand sides",
+journal="Numerical Algorithms",
+year="2013",
+volume="62",
+number="4",
+pages="637--653",
+issn="1572-9265",
+doi="10.1007/s11075-012-9687-2",
+url="http://dx.doi.org/10.1007/s11075-012-9687-2"
+}
