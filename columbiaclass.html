@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>COMS 6998: Advanced Topics in Parallel and Cloud Systems: Scalable Matrix Computation</title>
+    <style>
+        p {
+          margin: 3px 0; /* Sets top/bottom margin to 5px, left/right to 0 */
+        }
+        .banner {
+        display: flex;
+        overflow: hidden;
+        height: 140px;
+        margin: 20px 0;
+        gap: 10px;
+        }
+
+        .banner img {
+        flex: 1;
+        object-fit: cover;
+        border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+    <div style="max-width: 900px; margin: auto; font-family: sans-serif; line-height: 1.6;">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <h1 style="margin: 0;">
+                Columbia University, Computer Science Department
+            </h1>
+            <a href="https://www.columbia.edu" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/ColumbiaCrown.jpg"
+                     alt="Columbia University"
+                     style="height: 40px;">
+            </a>
+        </div>
+        <h3>COMS 6998: Advanced Topics in Parallel and Cloud Systems: Scalable Matrix Computation</h3>
+        <p><strong>Location/Time:</strong> F 12:10pm - 2:00pm, 829 Seeley W. Mudd Building</p>
+        <p><strong>Instructor:</strong> <a href="https://vkalantzi.github.io">Vasileios Kalantzis</a></p>
+        <p><strong>Contact:</strong> vk2599(at)columbia.edu</p>
+        <p><strong>TA:</strong> Rushin Bhatt [rsb2213(at)columbia.edu]</p>
+
+        <div class="banner">
+            <img src="https://www.ornl.gov/sites/default/files/2018-P01537.jpg" alt="Matrix computation">
+            <img src="https://specials-images.forbesimg.com/imageserve/6914bce3c3531c07c76e9fe9/960x0.jpg" alt="GPU computing">
+            <img src="https://static.wixstatic.com/media/2fa56b_ee49ffbfe702448fa662707583a98432~mv2.png/v1/fill/w_670,h_454,al_c,lg_1,q_85,enc_avif,quality_auto/2fa56b_ee49ffbfe702448fa662707583a98432~mv2.png" alt="Quantum computing">
+        </div>
+
+        <hr>
+
+        <h3>Course Description</h3>
+        <p align="justify">This course investigates advanced methods in large-scale matrix computations and its applications in modern and emerging computing hardware (e.g., post-von Neumann computers). Topics include randomized and asynchronous algorithms, straggler- and fault-tolerant methods, high-performance GPU/MPI implementations, and in-memory computing paradigms analog and quantum computing.</p>
+
+        <h3>Prerequisites</h3>
+        <p align="justify">The minimum requirements for the course are basics concepts of linear algebra and programming. Knowledge and experience with matrix computations and machine learning algorithms will be helpful. For the course, we will rely most heavily on linear algebra kernels/algorithms, but we will also learn concepts related to high-performance computing and post-von Neumann computer architectures. The course will involve rigorous theoretical analyses and some programming (practical implementation and applications). </p>
+
+        <h3>Grading Policy</h3>
+        Grading is based on problem sets, project/presentation, and class participation. There will be no exams. The breakdown is as follows:
+
+        <ul>
+            <li>Homework & coding assignments - 50%: Four assignments including problem sets and programming exercises.</li>
+            <li>Paper reviews & class participation: 15%</li>
+            <li>Final project (research report + presentation) - 35%: There will be a project selection (before Spring break), and a final presentation of the projects during the last week of the semester, along with a final report submission.</li>
+        </ul>
+
+        <p align="justify"> Assignments are to be submitted through Canvas, and should be individual work. You are allowed to discuss the problems with your classmates and to work collaboratively. The preferred format is to upload your work as a single PDF, preferably typewritten (using LaTeX, Markdown, or some other mathematical formatting program). In general, late assignments will not receive credit. </p>
+
+        <hr>
+
+        <h3>Weekly Schedule</h3>
+        <table border="1" cellpadding="10" style="border-collapse: collapse; width: 100%;">
+            <thead>
+                <tr style="background-color: #f2f2f2;">
+                    <th>Week</th>
+                    <th>Title</th>
+                    <th>Topics</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Introduction & Motivation</td>
+                    <td>High-Performance Computing, von Neumann computer model, accelerators and in-memory computing, performance metrics and the memory bottleneck</td>
+                </tr>
+                <tr>
+                    <td>2-3</td>
+                    <td>Randomized Matrix Algorithms</td>
+                    <td>Randomized SVD and PCA, randomized butterfly transformation, probabilistic matrix inversion, random variables and Monte Carlo estimation</td>
+                </tr>
+                <!--
+                <tr>
+                    <td>4</td>
+                    <td>Asynchronous Iterative Algorithms</td>
+                    <td>Federated learning and decentralized ML. (Tsitsiklis & Bertsekas)</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Straggler-Tolerant & Fault-Resilient Computation</td>
+                    <td>ABFT for LU/QR, coded matrix multiplication. (Yu et al., 2018)</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Secure & Distributed Computations</td>
+                    <td>Homomorphic encryption and medical data privacy. (Cheon et al., 2017)</td>
+                </tr>
+                <tr>
+                    <td>7-8</td>
+                    <td>High-Performance Matrix Computations</td>
+                    <td>MPI/GPU kernels and GPT training scalability. (Demmel et al.)</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Analog Matrix Computing</td>
+                    <td>In-memory architectures and neuromorphic solvers. (Shafiee et al., 2016)</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Quantum Matrix Algorithms</td>
+                    <td>Quantum transformers and HHL solvers. (Harrow et al., 2009)</td>
+                </tr>
+                <tr>
+                    <td>11-12</td>
+                    <td>Matrix Algorithms for Graph Analytics</td>
+                    <td>Spectral clustering and fraud detection. (Chung, Spectral Graph Theory)</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>Monte Carlo & Stochastic Algorithms</td>
+                    <td>Hutchinson's trace estimator for climate models. (Avron & Toledo, 2011)</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>Student Presentations</td>
+                    <td>Final project research reports and presentations.</td>
+                </tr>
+                -->
+            </tbody>
+        </table>
+        <h3>Useful Links</h3>
+        Content related to the one presented in this class:
+        <ul>
+            <li><a href="https://www-users.cse.umn.edu/~saad/csci5304/">CSCI 5304: Computational Aspects of Matrix Theory</a></li>
+            <li><a href="https://theartofhpc.com/">The Art of HPC</a></li>
+            <li><a href="https://torres.ai/supercomputing-for-ai/">Supercomputing for Artificial Intelligence</a></li>
+            <li><a href="https://blogs.fau.de/hager/hpc-book">Georg Hager's Blog: Random thoughts on High Performance Computing</a></li>
+        </ul>
+
+        <h3 class="sectionhdg">Disclaimer</h3>
+	     <p align="justify">  Any opinions, statements, or conclusions expressed in the above reports do not necessarily reflect the views
+	     of the acknowledged funding sponsors or Columbia University.
+	     </p>
+    </div>
+    <br><br>
+</body>
+</html>
