@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>COMS 6998: Quantum Optimization</title>
+    <style>
+        p {
+          margin: 3px 0; /* Sets top/bottom margin to 5px, left/right to 0 */
+        }
+        .banner {
+        display: flex;
+        overflow: hidden;
+        height: 140px;
+        margin: 20px 0;
+        gap: 10px;
+        }
+
+        .banner img {
+        flex: 1;
+        object-fit: cover;
+        border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+
+  <div style="max-width: 900px; margin: auto; font-family: sans-serif; line-height: 1.6;">
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+        <h1 style="margin: 0;">
+            Columbia University, Computer Science Department
+        </h1>
+        <a href="https://www.columbia.edu" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/ColumbiaCrown.jpg"
+                 alt="Columbia University"
+                 style="height: 40px;">
+        </a>
+    </div>
+    <h3>COMS 6998: Quantum Optimization</h3>
+    <p><strong>Location/Time:</strong> F 10:10pm - 12:00pm, 606 Martin Luther King Building</p>
+    <p><strong>Instructor:</strong> <a href="https://vkalantzi.github.io">Vasileios Kalantzis</a></p>
+    <p><strong>Contact:</strong> vk2599(at)columbia.edu</p>
+
+    <div class="banner">
+        <img src="https://www.ornl.gov/sites/default/files/2018-P01537.jpg" alt="Matrix computation">
+        <img src="https://specials-images.forbesimg.com/imageserve/6914bce3c3531c07c76e9fe9/960x0.jpg" alt="GPU computing">
+        <img src="https://static.wixstatic.com/media/2fa56b_ee49ffbfe702448fa662707583a98432~mv2.png/v1/fill/w_670,h_454,al_c,lg_1,q_85,enc_avif,quality_auto/2fa56b_ee49ffbfe702448fa662707583a98432~mv2.png" alt="Quantum computing">
+    </div>
+
+    <hr>
+
+
+<h3>Course Description</h3>
+
+<p>This course investigates modern optimization methods at the intersection of classical algorithms, artificial intelligence, high-performance computing, and quantum computing. The course is organized around four themes: basics on optimization; AI for optimization, including data-driven optimization with graph neural networks and large language models; quantum optimization, including QUBO/HUBO modeling, Ising formulations, QAOA, annealing-inspired methods, and variational quantum algorithms; and integrated AI+Quantum solutions for end-to-end optimization pipelines. The course emphasizes both theory and implementation, including classical baselines and hybrid workflows using mathematical programming solvers such as CPLEX, GPU/MPI-based high-performance computing, and quantum-centric supercomputing workflows.</p>
+
+<h3>Prerequisites</h3>
+
+<p>The minimum requirements for the course are basic concepts of linear algebra, algorithms, probability, and programming. Knowledge and experience with optimization, machine learning, high-performance computing, or quantum computing will be helpful. The course will involve rigorous theoretical analyses, paper reading, and programming assignments involving classical solvers, AI tools, quantum software stacks, and HPC-style benchmarking.</p>
+
+<h3>Grading Policy</h3>
+
+<p>Grading is based on problem sets, project/presentation, and class participation. There will be no exams. The breakdown is as follows:</p>
+<ul>
+  <li>Homework &amp; coding assignments - 70%: Four assignments including problem sets and programming exercises.</li>
+  <li>Paper reviews &amp; class participation - 15%</li>
+  <li>Final project (research report + presentation) - 15%: There will be a project selection before Spring break, and a final presentation of the projects during the last week of the semester, along with a final report submission.</li>
+</ul>
+<p>Assignments are to be submitted through Canvas, and should be individual work. You are allowed to discuss the problems with your classmates and to work collaboratively. The preferred format is to upload your work as a single PDF, preferably typewritten using LaTeX, Markdown, or another mathematical formatting program. In general, late assignments will not receive credit.</p>
+
+<hr>
+
+<h3>Tentative Weekly Schedule</h3>
+
+<table border="1" cellpadding="10" style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr><th>Week</th><th>Title</th><th>Topics</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Introduction &amp; Motivation</td><td>Optimization in operations research, ML, scientific computing, and quantum computing; scheduling, MaxCut, portfolio optimization, PDE-constrained optimization, routing, and quantum circuit compilation.</td></tr>
+    <tr><td>2</td><td>Basics of Continuous and Discrete Optimization</td><td>LP, QP, integer programming, convexity, duality, relaxations, optimality gaps, approximation algorithms, and CPLEX/open-source solver baselines.</td></tr>
+    <tr><td>3</td><td>QUBO, HUBO, and Ising Modeling</td><td>Binary and higher-order unconstrained formulations, penalties, reductions, quadratization, sparsity, graph structure, and constraints.</td></tr>
+    <tr><td>4</td><td>High-Performance Optimization Pipelines</td><td>Parallel branch-and-bound, decomposition, distributed local search, GPU/MPI acceleration, batched simulation, benchmarking, and performance metrics.</td></tr>
+    <tr><td>5</td><td>AI for Optimization I: Graph Neural Networks</td><td>Learning heuristics for graph optimization, neural combinatorial optimization, learned branching/cutting, embeddings, and search guidance.</td></tr>
+    <tr><td>6</td><td>AI for Optimization II: LLMs and Foundation Models</td><td>LLMs for modeling, constraint generation, code synthesis, solver orchestration, debugging, and human-in-the-loop optimization.</td></tr>
+    <tr><td>7</td><td>Quantum Computing Basics for Optimization</td><td>Qubits, gates, circuits, measurement, Hamiltonians, noise, transpilation, hardware topology, and observables.</td></tr>
+    <tr><td>8</td><td>Quantum Approximate Optimization Algorithm</td><td>QAOA for MaxCut and QUBO, mixers, cost Hamiltonians, parameter landscapes, warm starts, constraints, depth, sampling, and classical outer-loop optimization.</td></tr>
+    <tr><td>9</td><td>Variational and Sampling-Based Quantum Optimization</td><td>VQE-style optimization, annealing-inspired algorithms, quantum walks, sampling heuristics, shot noise, and post-processing.</td></tr>
+    <tr><td>10</td><td>Quantum Hardware-Aware Optimization</td><td>Problem embedding, transpilation-aware formulations, error mitigation, noise-aware objectives, resource estimation, and comparisons against CPLEX, heuristics, and HPC simulation.</td></tr>
+    <tr><td>11</td><td>AI+Quantum I: Learning to Build Quantum Workflows</td><td>GNNs and LLMs for encoding, ansatz selection, mixer design, penalty tuning, parameter initialization, and automated experimental design.</td></tr>
+    <tr><td>12</td><td>AI+Quantum II: Quantum-Centric Supercomputing</td><td>Hybrid workflows combining CPUs, GPUs, QPUs, CPLEX, simulators, and AI agents; scheduling, routing, circuit cutting, domain decomposition, and optimization services.</td></tr>
+    <tr><td>13</td><td>Benchmarking, Reproducibility, and Research Frontiers</td><td>Fair baselines, instance generation, ablation studies, metrics beyond success probability, benchmark suites, and quantum advantage questions.</td></tr>
+    <tr><td>14</td><td>Student Presentations</td><td>Final project presentations on QAOA, QUBO/HUBO, AI-guided solvers, CPLEX-vs-quantum comparisons, HPC simulation, or AI+Quantum pipelines.</td></tr>
+  </tbody>
+</table>
+
+<h3>Useful Links</h3>
+
+<p>Content related to the one presented in this class:</p>
+<ul>
+  <li><a href="https://qiskit.org/">Qiskit</a></li>
+  <li><a href="https://www.ibm.com/products/ilog-cplex-optimization-studio">IBM ILOG CPLEX Optimization Studio</a></li>
+  <li><a href="https://theartofhpc.com/">The Art of HPC</a></li>
+  <li><a href="https://arxiv.org/abs/1411.4028">A Quantum Approximate Optimization Algorithm</a></li>
+  <li><a href="https://arxiv.org/abs/1302.5843">Ising Formulations of Many NP Problems</a></li>
+</ul>
+
+<h3>Disclaimer</h3>
+
+<p>Any opinions, statements, or conclusions expressed in the above reports do not necessarily reflect the views of the acknowledged funding sponsors or Columbia University.</p>
+
+</body>
+</html>
